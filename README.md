@@ -4,7 +4,7 @@ Created by Rokas Paulikas
 
 # How To Use
 
-1. Create test database and configure laravel .env file to use it
+1. Create new SQL database and configure laravel .env file to use it
 2. Run ```php artisan db:seed```
 3. Run ```php artisan passport:install```
 4. Run ```php artisan serve```
