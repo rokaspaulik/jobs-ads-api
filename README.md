@@ -5,14 +5,15 @@ Created by Rokas Paulikas
 # How To Use
 
 1. Create new SQL database and configure laravel .env file to use it
-2. Run ```php artisan db:seed```
-3. Run ```php artisan passport:install```
-4. Run ```php artisan serve```
-5. Go to ```http://localhost:8000/``` in your browser
-6. Register & login
-7. Create new token
-8. Authenticate using the token
-9. You are now ready to test the API
+2. Run ```php artisan migrate```
+3. Run ```php artisan db:seed```
+4. Run ```php artisan passport:install```
+5. Run ```php artisan serve```
+6. Go to ```http://localhost:8000/``` in your browser
+7. Register & login
+8. Create new token
+9. Authenticate using the token
+10. You are now ready to test the API
 
 # Tools Used
 
