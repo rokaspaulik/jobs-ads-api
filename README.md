@@ -1,6 +1,10 @@
 # Job Ads API
 
-Created by Rokas Paulikas
+Created by Rokas Paulikas.
+
+**EXTRA NOTE**
+
+* Salary database field is Integer, value are EURO cents.
 
 # How To Use
 
