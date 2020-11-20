@@ -2,6 +2,18 @@
 
 Created by Rokas Paulikas
 
+# How To Use
+
+1. Create test database and configure laravel .env file to use it
+2. Run ```php artisan db:seed```
+3. Run ```php artisan passport:install```
+4. Run ```php artisan serve```
+5. Go to ```http://localhost:8000/``` in your browser
+6. Register & login
+7. Create new token
+8. Authenticate using the token
+9. You are now ready to test the API
+
 # Tools Used
 
 * Laravel 6.20.4 (LTS)

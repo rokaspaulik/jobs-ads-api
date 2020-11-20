@@ -3,6 +3,7 @@
 use Illuminate\Database\Seeder;
 
 use App\JobAd;
+use App\JobAdTranslation;
 
 class JobAdsTableSeeder extends Seeder
 {
@@ -14,7 +15,8 @@ class JobAdsTableSeeder extends Seeder
     public function run()
     {
         JobAd::truncate();
+        JobAdTranslation::truncate();
 
-        factory(\App\JobAd::class, 50)->create();
+        factory(\App\JobAdTranslation::class, 50)->create();
     }
 }
