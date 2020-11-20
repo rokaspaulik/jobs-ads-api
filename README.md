@@ -41,6 +41,14 @@ http://127.0.0.1:8000/api/ads/{id}
 Create new JobAd
 ```json
 http://127.0.0.1:8000/api/ads
+
+BODY:
+{
+    "title": "Some title",
+    "description": "Some description",
+    "salary": 210000,
+    "area_id": 1
+}
 ```
 
 ---
@@ -48,6 +56,14 @@ http://127.0.0.1:8000/api/ads
 Update single JobAd record by id
 ```json
 http://127.0.0.1:8000/api/ads/{id}
+
+BODY:
+{
+    "title": "Updated title",
+    "description": "Updated description",
+    "salary": 230000,
+    "area_id": 2
+}
 ```
 
 ---
@@ -77,6 +93,14 @@ http://127.0.0.1:8000/api/ads-trans/{id}
 Create new JobAdTranslation
 ```json
 http://127.0.0.1:8000/api/ads-trans
+
+BODY:
+{
+    "job_ad_id": 1,
+    "language_code": "lt",
+    "title": "Lietuviškas pavadinimas",
+    "description": "Lietuviškas aprašymas"
+}
 ```
 
 ---
@@ -84,6 +108,14 @@ http://127.0.0.1:8000/api/ads-trans
 Update single JobAdTranslation record by id
 ```json
 http://127.0.0.1:8000/api/ads-trans/{id}
+
+BODY:
+{
+    "job_ad_id": 1,
+    "language_code": "lt",
+    "title": "Atnaujintas pavadinimas",
+    "description": "Atnaujintas aprašymas"
+}
 ```
 
 ---
